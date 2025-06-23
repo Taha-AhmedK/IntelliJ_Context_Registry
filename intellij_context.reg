@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Open with IntelliJ IDEA]
+@="Open with IntelliJ IDEA"
+"Icon"="\"C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2025.1\\bin\\idea64.exe\""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Open with IntelliJ IDEA\command]
+@="\"C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2025.1\\bin\\idea64.exe\" \"%V\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\Open with IntelliJ IDEA]
+@="Open with IntelliJ IDEA"
+"Icon"="\"C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2025.1\\bin\\idea64.exe\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\Open with IntelliJ IDEA\command]
+@="\"C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2025.1\\bin\\idea64.exe\" \"%1\""
+
+[HKEY_CLASSES_ROOT\*\shell\Open with IntelliJ IDEA]
+@="Open with IntelliJ IDEA"
+"Icon"="\"C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2025.1\\bin\\idea64.exe\""
+
+[HKEY_CLASSES_ROOT\*\shell\Open with IntelliJ IDEA\command]
+@="\"C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2025.1\\bin\\idea64.exe\" \"%1\""
